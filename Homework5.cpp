@@ -23,7 +23,7 @@ public:
         return Complex(real * A.real - image * A.image, real * A.image + A.real * image);
     }
     void Print() {
-        cout << real << "+" << image << "b" << endl;
+        cout << real << "+" << image << "i" << endl;
     }
 };
 
