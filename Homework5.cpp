@@ -32,8 +32,8 @@ public:
 
 int main()
 {
-    Complex* Alpha = new Complex(5, 2);
-    Complex* Beta = new Complex(3, 4);
+    Complex* Alpha = new Complex(5.0, 11.0);
+    Complex* Beta = new Complex(1.0, 2.0);
     Alpha->Sum(*Beta).Print();
     Alpha->Diffr(*Beta).Print();
     Alpha->Mult(*Beta).Print();
